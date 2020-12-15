@@ -1,0 +1,33 @@
+.input-block {
+    font-size: 3rem;
+    font-family: sans-serif;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.button-canyon{
+    display: flex;
+    padding: 2rem;
+    margin-left: 9rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: var(--color-secundary);
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.search-cep {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    color: white;
+    background: var(--color-primary-dark);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}

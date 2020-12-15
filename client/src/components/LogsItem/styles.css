@@ -1,0 +1,28 @@
+.log-item img{
+    width: auto;
+    height: 9rem;
+    margin-right: 3rem;
+}
+
+.log-item header {
+    padding: 2rem;
+    flex-direction: row;
+    font-size: 3rem;
+    font-family: sans-serif;
+    display: flex;
+    color: var(--color-text-title);
+    background: var(--color-box-base);
+}
+
+.itens-log {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+
+}
+article.log-item {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin: 1rem;
+}

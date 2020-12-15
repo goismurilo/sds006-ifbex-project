@@ -1,0 +1,32 @@
+.page-header {
+    background-color: var(--color-secundary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-header .top-bar-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 1.6rem 0;
+}
+
+.top-bar-container {
+    align-items: center;
+}
+
+img {
+    background-color: aliceblue;
+    border-radius:100%;
+    width: auto;
+    height: 20rem;
+    align-self: center;
+}
+
+.page-header .top-bar-container div img {
+    height: 20rem;
+    align-self: center;
+}

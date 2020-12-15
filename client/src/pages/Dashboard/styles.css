@@ -1,0 +1,30 @@
+#page-dashboard {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+#page-dashboard .page-header .header-content { 
+    margin-bottom: 6.4rem;
+}
+
+#page-dashboard main {
+    width: 100%;
+    align-items: center;
+    max-width: 74rem;
+    border-radius: 0.8rem;
+    margin: -3.2rem auto 3.2rem;
+    padding-top: 6.4rem;
+}
+
+
+@media (min-width: 700px) {
+    #page-dashboard {
+        max-width: 100vw;
+        align-items: center;
+    }
+    #page-dashboard .page-header .header-content {
+        margin-bottom: 0;
+    }
+
+}

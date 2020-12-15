@@ -1,0 +1,35 @@
+.page-canyon {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.title-canyon {
+    font-size: 6rem;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;  
+}
+.log-pic {
+    padding: 3rem;
+    border-radius: 50%;
+    background-color: var(--color-secundary);
+    margin: 0 2rem;
+}
+.log-pic img {
+    height: 18rem;
+    width: auto;
+    background-color: var(--color-secundary);
+    border-radius: 4rem;
+}
+.cep-pic {
+    padding: 3rem;
+    border-radius: 50%;
+    background-color: var(--color-primary-lighter);
+    margin: 0 2rem;
+}
+.cep-pic img {
+    height: 18rem;
+    width: auto;
+    background-color: var(--color-primary-lighter);
+    border-radius: 4rem;
+}
