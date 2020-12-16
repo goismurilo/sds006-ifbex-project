@@ -28,7 +28,7 @@ do curso de Analise e Desenvolvimento de Sistemas - IFBA, Campus Eunápolis.
 -  5: Produzir uma pagina de pesquisa dos correios. - :heavy_check_mark:
 
 <h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
+    <img alt="Example" title="Example" src="https://github.com/goismurilo/sds006-ifbex-project/blob/master/client/src/assets/images/ifbex-icon.jpg" width="500px" />
 </h1>
 
 
