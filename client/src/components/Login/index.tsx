@@ -16,7 +16,7 @@ function Login(){
             name: res.profileObj.givenName,
             email: res.profileObj.email,
             image: res.profileObj.imageUrl,
-
+                  
         }).then(() => {
             alert('Login realizado com sucesso!');
             history.push('/canyon');

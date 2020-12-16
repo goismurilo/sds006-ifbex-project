@@ -1,6 +1,6 @@
 import {MigrationInterface, QueryRunner, Table } from "typeorm";
 
-export class CreateLogs1608068457238 implements MigrationInterface {
+export class CreateLogs1608076846641 implements MigrationInterface {
 
     public async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.query('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"');
@@ -26,7 +26,6 @@ export class CreateLogs1608068457238 implements MigrationInterface {
                     {
                         name: 'email',
                         type: 'varchar',
-                        isUnique: true,
                     },
 
                     {

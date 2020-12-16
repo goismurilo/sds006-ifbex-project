@@ -21,6 +21,7 @@ routes.get('/logs', async (request, response) => {
 routes.post('/logs', async(request, response) =>{
         try {
                 const { name, email, image } = request.body;
+                console.log(name);
         
                 const createLogService = new CreateLogService();
         
